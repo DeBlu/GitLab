@@ -74,7 +74,6 @@ public class GitLab implements EntryPoint {
 			@Override
 			public void onSuccess(List<IUser> result) {
 			displayUsers(result);
-			System.out.println("I am printing this in order to cause conflicts");
 			}});
 
 
