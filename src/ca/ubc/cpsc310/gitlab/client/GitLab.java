@@ -80,7 +80,7 @@ public class GitLab implements EntryPoint {
 	}
 	
 	
-	public void nothing() {
+	public void blank() {
 		
 	}
 	/**
