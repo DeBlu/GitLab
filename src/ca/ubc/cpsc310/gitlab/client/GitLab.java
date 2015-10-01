@@ -80,9 +80,6 @@ public class GitLab implements EntryPoint {
 	}
 	
 	
-	public void blank() {
-		
-	}
 	/**
 	 * Used to display users 
 	 * @param users
