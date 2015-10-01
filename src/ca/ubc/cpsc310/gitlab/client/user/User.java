@@ -14,7 +14,7 @@ public class User implements IUser {
 	private List<ProductItem> shoppingCart = new ArrayList<ProductItem>();
 	private List<ProductItem> wishList = new ArrayList<ProductItem>();
 	
-	private String name;
+	private String conflictingName;
 	private String language;
 
 	
@@ -34,7 +34,7 @@ public class User implements IUser {
 	@Override
 	public String getName() {
 
-		return name;
+		return conflictingName;
 
 	}
 
@@ -63,7 +63,7 @@ public class User implements IUser {
 	@Override
 	public void setName(String name) {
 
-		this.name = name;
+		this.conflictingName = name;
 
 		
 	}
