@@ -33,9 +33,7 @@ import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.RootPanel;
 import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
-//this is a comment
-//this is another comment
-//this is the third comment
+
 //changed
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
@@ -92,7 +90,7 @@ public class GitLab implements EntryPoint {
 		
 		flexTable.setText(0,0, "Name");
 		
-		flexTable.setText(0,1,"Language");
+		flexTable.setText(0,4,"Language");
 		flexTable.setText(0,2, "Shopping Cart Size");
 		flexTable.setText(0,3, "Wish List Size");
 		flexTable.setStyleName("centered-table", true);
