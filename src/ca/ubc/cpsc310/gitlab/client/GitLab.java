@@ -1,8 +1,7 @@
 package ca.ubc.cpsc310.gitlab.client;
 
 
-import java.util.ArrayList;
-import java.util.List;
+
 
 import ca.ubc.cpsc310.gitlab.client.products.ProductItem;
 import ca.ubc.cpsc310.gitlab.client.user.IUser;
@@ -22,16 +21,6 @@ import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.event.dom.client.KeyCodes;
 import com.google.gwt.event.dom.client.KeyUpEvent;
 import com.google.gwt.event.dom.client.KeyUpHandler;
-import com.google.gwt.user.client.Window;
-import com.google.gwt.user.client.rpc.AsyncCallback;
-import com.google.gwt.user.client.ui.Button;
-import com.google.gwt.user.client.ui.DialogBox;
-import com.google.gwt.user.client.ui.FlexTable;
-import com.google.gwt.user.client.ui.HTML;
-import com.google.gwt.user.client.ui.Image;
-import com.google.gwt.user.client.ui.Label;
-import com.google.gwt.user.client.ui.RootPanel;
-import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 
 //changed
@@ -89,12 +78,9 @@ public class GitLab implements EntryPoint {
 
 		RootPanel.get("root").add(flexTable);
 		
-		flexTable.setText(0,0, "Name");
 		
-		flexTable.setText(0,1,"Language");
-		flexTable.setText(0,2, "Shopping Cart Size");
-		flexTable.setText(0,3, "Wish List Size");
-		flexTable.setStyleName("centered-table", true);
+		flexTable.setText(0,3, "Wish no List Size");
+		flexTable.setStyleName("centered-table", false);
 		
 		for(int i=0; i < users.size(); i++)
 		{
