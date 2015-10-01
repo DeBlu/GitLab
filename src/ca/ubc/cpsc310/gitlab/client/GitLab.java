@@ -35,7 +35,7 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.VerticalPanel;
 //this is a comment
 //this is another comment
-//this is the third comment
+//this is the third commen
 
 /**
  * Entry point classes define <code>onModuleLoad()</code>.
